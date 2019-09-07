@@ -1,0 +1,19 @@
+﻿@model User
+@{
+    Layout = null;
+}
+
+<h2>Add</h2>
+
+
+<form method="post" action="Add">
+     <input type="hidden" name="userid" />
+   
+    <label>İsim: </label> <input type="text" name="name" />
+    <br />
+    <label>Tanım:</label> <input type="text" name="description"  />
+    <br />
+    <input type="submit" value="Gönder" />
+</form>
+
+
